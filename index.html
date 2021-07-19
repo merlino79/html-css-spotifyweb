@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  <!-- style -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Spotify Web</title>
+</head>
+<body>
+
+  <!-- main -->
+  <main>
+
+    <!-- main section menu -->
+    <section class="section-menu float">
+      <div class="menu display-inline-block">
+        
+        <!-- logo -->
+        <div class="logo">
+
+          <div class="visible-xs text-center">
+            <img src="img/logo-small.svg" alt="logo">
+          </div>
+
+          <div class="hidden-xs padding-left-20 padding-20">
+            <img src="img/logo.svg" alt="logo">
+          </div>
+          
+        </div>
+        <!-- /logo -->
+
+        <!-- menu top home-->
+        <div class="menu-top margin-5">
+
+          <div class="visible-xs text-center margin-10">
+            <img class="margin-5" src="img/home.svg" alt="Home">
+            <img class="margin-5" src="img/search.svg" alt="search">
+            <img class="margin-5" src="img/libreria.svg" alt="library">
+          </div>
+
+          <div class="hidden-xs">
+            <div class="home-row active padding-left-20">
+              <img src="img/home.svg" alt="Home">
+              <span class="color-white padding-s8 text-font-12">Home</span>
+            </div>
+
+            <div class="home-row padding-left-20">
+              <img src="img/search.svg" alt="search">
+              <span class="padding-s8 text-font-12">Cerca</span>
+            </div>
+
+            <div class="home-row padding-left-20">
+              <img src="img/libreria.svg" alt="library">
+              <span class="padding-s8 text-font-12">La tua libreria</span>
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- /menu top -->
+
+        <!-- menu bottom -->
+        <div class="menu-bottom debug">
+
+          <div class="playlist hidden-xs">
+            <h4 class="text-uppercase  padding-left-20">Playlist</h4>
+            <div class="play-row  padding-left-20">
+              <span class="crea">Crea Playlist</span>
+            </div>
+
+            <div class="lista padding-left-20 text-font-11 debug">
+              <ul>
+                <li>Nome Playlist</li>
+                <li>Nome Playlist</li>
+                <li>Nome Playlist</li>
+                <li>Nome Playlist</li>
+                <li>Nome Playlist</li>
+                <li>Nome Playlist</li>
+                <li>Nome Playlist</li>
+                <li>Nome Playlist</li>
+              </ul>
+            </div>
+            
+          </div>
+
+          <div class="upload debug">
+
+            <div class="visible-xs">
+              <div class="box">
+                <div class="installa">
+                  <img src="img/download.svg" alt="download">
+                </div>
+                <div class="account">
+                  <img src="img/profile.svg" alt="profile">
+                </div>
+              </div>
+            </div>
+
+            <div class="hidden-xs padding-left-20 margin-5">
+              <div class="installa">
+                <img src="img/download.svg" alt="download">
+                <span>Installa app</span>
+              </div>
+              <div class="account">
+                <img src="img/profile.svg" alt="profile">
+                <span class="color-white">John Doe</span>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+        <!-- /menu bottom --> 
+        
+
+      </div>
+    </section>
+    <!-- /main section menu -->
+
+    <!-- main section content -->
+    <section class="section-content float clearfix">
+
+      <!-- barra trasparente -->
+      <div class="barra-upgrade color-white text-right text-uppercase">
+        <a class="btn">effettua l'upgrade</a>
+      </div>
+      <!-- /barra trasparente -->
+
+      <!-- content principale -->
+      <div class="content clearfix">
+
+        <!-- nav dentro content -->
+        <nav class="padding-20 text-center margin-40 debug">
+          <ul class="text-uppercase debug">
+            <li class="li-active"><div>In evidenza</div></li>
+            <li>Podcast</li>
+            <li>Classifiche</li>
+            <li>Generi e mood</li>
+            <li>Nuove uscite</li>
+            <li>Scopri</li>
+          </ul>
+        </nav>
+        <!-- nav dentro content -->
+
+        <!-- container -->
+        <div class="container margin-20">
+
+          <!-- row 1 -->
+          <div class="row margin-b20 debug">
+
+            <div class="row-title margin-b20">
+              <h3 class="color-white">Recently played</h3>
+            </div>
+            <div class="row-content margin-b20 clearfix debug">
+
+              <div class="box float clearfix debug text-center">
+                <div class="box-img">
+                  <img src="img/metal_lifting.jpg" alt="metal lifting">
+                  <div class="overlay color-white"><i class="far fa-play-circle"></i></div>
+                </div>
+                <h4 class="color-white margin-5">Heavy Metal</h4>
+                <p class="text-font-8 margin-5">Subtitle</p>
+              </div>
+
+              <div class="box float clearfix debug text-center">
+                <div class="box-img">
+                  <img src="img/stranger.jpeg" alt="stranger">
+                  <div class="overlay color-white"><i class="far fa-play-circle"></i></div>
+                </div>
+                <h4 class="color-white margin-5">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
+                <p class="text-font-8 margin-5">Kyle Dixon & Michael Stein</p>
+              </div>
+
+              <div class="box float clearfix debug text-center">
+                <div class="box-img">
+                  <img src="img/aquietplace.jpeg" alt="quiet place">
+                  <div class="overlay color-white"><i class="far fa-play-circle"></i></div>
+                </div>
+                <h4 class="color-white margin-5">A quiet place</h4>
+                <p class="text-font-8 margin-5">Subtitle</p>
+              </div>
+
+              <div class="box float clearfix debug text-center">
+                <div class="box-img">
+                  <img src="img/split.jpeg" alt="split">
+                  <div class="overlay color-white"><i class="far fa-play-circle"></i></div>
+                </div>
+                <h4 class="color-white margin-5">Split</h4>
+                <p class="text-font-8 margin-5">Subtitle</p>
+              </div>
+
+              <div class="box float clearfix debug text-center">
+                <div class="box-img">
+                  <img src="img/cure.jpeg" alt="cure for wellness">
+                  <div class="overlay color-white"><i class="far fa-play-circle"></i></div>
+                </div>
+                <h4 class="color-white margin-5">A cure for wellness</h4>
+                <p class="text-font-8 margin-5">Subtitle</p>
+              </div>
+
+              <div class="box float clearfix debug text-center">
+                <div class="box-img">
+                  <img src="img/sinister.jpeg" alt="sinister">
+                  <div class="overlay color-white"><i class="far fa-play-circle"></i></div>
+                </div>
+                <h4 class="color-white margin-5">Sinister</h4>
+                <p class="text-font-8 margin-5">Subtitle</p>
+              </div>
+
+            </div>
+          </div>
+          <!-- /row 1 -->
+
+          <!-- row 2 -->
+          <div class="row margin-b20 clearfix debug">
+
+            <div class="row-title margin-b20">
+              <h3 class="color-white">Creato per John Doe</h3>
+              <p class="text-font-8 margin-5">Più ascolti, più accurati saranno i suggerimenti.</p>
+            </div>
+            <div class="row-content margin-b20 clearfix debug">
+
+              <div class="box float clearfix debug text-center">
+                <div class="box-img">
+                  <img src="img/radar.jpeg" alt="radar">
+                  <div class="overlay color-white"><i class="far fa-play-circle"></i></div>
+                </div>
+                <h4 class="color-white margin-5">Release Radar</h4>
+              </div>
+
+              <div class="box float clearfix debug text-center">
+                <div class="box-img">
+                  <img src="img/mixdaily.jpeg" alt="daily mix 1">
+                  <div class="overlay color-white"><i class="far fa-play-circle"></i></div>
+                </div>
+                <h4 class="color-white margin-5">Daily Mix 1</h4>
+              </div>
+
+            </div>
+          </div>
+          <!-- /row 2 -->
+
+          <!-- row 3 -->
+          <div class="row margin-b20 clearfix debug">
+
+            <div class="row-title margin-b20">
+              <h3 class="color-white">Artisti più popolari</h3>
+              <p class="text-font-8 margin-5">Più ascolti, più accurati saranno i suggerimenti.</p>
+            </div>
+            <div class="row-content margin-b20 clearfix debug">
+
+              <div class="box float clearfix debug text-center">
+                <div class="box-img img-round">
+                  <img src="img/youg.jpeg" alt="young beautifl">
+                  <div class="overlay color-white"><i class="far fa-play-circle"></i></div>
+                </div>
+                <h4 class="color-white margin-5">Nome canzone</h4>
+                <p class="text-font-8 margin-5">Nome Artista</p>
+              </div>
+
+              <div class="box float clearfix debug text-center">
+                <div class="box-img img-round">
+                  <img src="img/einaudi.jpeg" alt="einaudi">
+                  <div class="overlay color-white"><i class="far fa-play-circle"></i></div>
+                </div>
+                <h4 class="color-white margin-5">Nome canzone</h4>
+                <p class="text-font-8 margin-5">Nome Artista</p>
+              </div>
+
+            </div>
+          </div>
+          <!-- /row 3 -->
+
+        </div>
+        <!-- /container -->
+
+
+      </div>
+      <!-- /content main -->
+
+
+
+    </section>
+    <!-- /main section content -->
+
+  </main>
+  <!-- /main -->
+
+  <!-- footer -->
+  <footer class="padding-s10">
+
+    <!-- footer left -->
+    <div class="footer-left debug">
+      
+      <div class="box play">
+        <img src="img/sinister.jpeg" alt="sinister">
+        <div class="text padding-s10 debug">
+          <p class="color-white text-font-12">Sinister</p>
+          <p class="text-font-9">Brano Nome</p>
+        </div>
+        
+      </div>
+
+      <div class="box icon padding-s10 debug">
+        <i class="far fa-heart"></i>
+        <i class="far fa-folder"></i>
+      </div>
+
+    </div>
+    <!-- footer left -->
+
+    <!-- footer center -->
+    <div class="footer-center text-center debug">
+
+      <div class="center-top color-white">
+        <div class="center-top-icon">
+          <i class="fas fa-random"></i>
+          <i class="fas fa-step-backward"></i>
+          <i class="far fa-play-circle"></i>
+          <i class="fas fa-step-forward"></i>
+          <i class="fas fa-redo-alt"></i>
+        </div>
+      </div>
+
+      <div class="center-bottom color-light-gray">
+        <div class="time-left text-font-9">0:25</div>
+        <div class="bar">
+          <div class="bar-status"><div class="bar-circle"></div></div>
+        </div>
+        <div class="time-right text-font-9">4:35</div>
+      </div>
+
+      
+    </div>
+    <!-- /footer center -->
+
+    <!-- footer right -->
+    <div class="footer-right color-light-gray debug">
+      <i class="fas fa-list"></i>
+      <i class="fas fa-tv"></i>
+      <i class="fas fa-volume-up"></i>
+      <div class="bar">
+        <div class="bar-status"><div class="bar-circle"></div></div>
+      </div>
+    </div>
+    <!-- /footer right -->
+
+
+  </footer>
+  <!-- /footer -->
+  
+</body>
+</html>
